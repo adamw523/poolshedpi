@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  influxdb:
+    build: docker-images/influxdb
+    ports:
+      - "8083:8083"
+      - "8086:8086"
+      - "2003:2003"
+    volumes:
+      - ./influxdb_data:/var/lib/influxdb
+    #command: elasticsearch -E node.name=master-node -E cluster.name=weather-cluster -E node.mas
+
