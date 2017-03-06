@@ -46,5 +46,7 @@ sudo sh -c "curl -L https://github.com/hypriot/compose/releases/download/1.1.0-r
 
 ```
 
+# InfluxDB / Grafana
 
+http://engineer.john-whittington.co.uk/2016/11/raspberry-pi-data-logger-influxdb-grafana/
 
