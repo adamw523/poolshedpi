@@ -1,6 +1,6 @@
 # Keyboard Layout
 
-In `/etc/defaults/keyboard`
+In `/etc/default/keyboard`
 
 ```
 XKBLAYOUT="us"
