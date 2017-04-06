@@ -38,13 +38,11 @@ sudo systemctl start docker
 sudo usermod -aG docker pi
 ```
 
-https://blog.hypriot.com/post/docker-compose-nodejs-haproxy/
+Installing docker-compose on pi:
 
+Third party compiled compose:
 
-```
-sudo sh -c "curl -L https://github.com/hypriot/compose/releases/download/1.1.0-raspbian/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose; chmod +x /usr/local/bin/docker-compose"
-
-```
+https://github.com/hypriot/arm-compose#installation
 
 # InfluxDB / Grafana
 
